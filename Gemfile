@@ -19,6 +19,7 @@ end
 
 group :development do
   gem 'thin'
+  gem 'quiet_assets'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
