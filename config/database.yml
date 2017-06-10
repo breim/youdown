@@ -24,6 +24,8 @@ default: &default
 development:
   <<: *default
   database: youdown_development
+  username: <%= ENV['YOUDOWN_DATABASE_USER'] %>
+  password: <%= ENV['YOUDOWN_DATABASE_PASSWORD'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -81,5 +83,6 @@ test:
 production:
   <<: *default
   database: youdown_production
-  username: youdown
+  username: <%= ENV['YOUDOWN_DATABASE_USER'] %>
   password: <%= ENV['YOUDOWN_DATABASE_PASSWORD'] %>
+
