@@ -1,6 +1,14 @@
 @import 'navbar';
 
 body {
-  padding-top: 70px;
+  padding-top: 100px;
   background-color: #f1f1f1 !important;
+}
+
+.panel-body {
+  padding: 115px !important;
+}
+
+h3{
+  margin-top: 0px !important;
 }
