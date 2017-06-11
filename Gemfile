@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Essentials
 gem 'figaro'
+gem 'mechanize'
 
 group :development, :test do
   gem 'byebug'
