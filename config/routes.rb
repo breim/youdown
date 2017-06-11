@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   root 'pages#index'
-  post '/download', to: 'posts#download'
+  post '/download', to: 'pages#download'
 end

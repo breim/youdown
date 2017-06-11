@@ -4,10 +4,12 @@
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<h3>Download youtube music</h3>
+					<form action="/download" method="post">
 					<div class="form-group">
-						<input class="form-control input-lg" type="text" placeholder="Youtube Link or music name">
+						<input class="form-control input-lg" type="text" name="music" placeholder="Youtube Link or music name">
 					</div>
-					<button type="button" class="btn btn-danger btn-lg btn-block">Download</button>
+					<input type="submit" class="btn btn-danger btn-lg btn-block" value="Download">
+					</form>
 				</div>
 			</div>
 		</div>
